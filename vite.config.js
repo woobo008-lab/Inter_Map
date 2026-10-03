@@ -166,5 +166,6 @@ function pinFileApi() {
 }
 
 export default defineConfig({
+  base: './',
   plugins: [react(), pinFileApi()],
 })
